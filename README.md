@@ -2,7 +2,7 @@
 This project is a 'node' application, ie, it runs from the command line.<br>
 <br>
 It plays a simple "hangman" style word game.<br>
-Attempt to guess the letters in the word within 15 guesses to win.<br>
+Attempt to guess the letters in the word with less than 15 wrong guesses to win.<br>
 
 <pre>
 To run this application, first install the required node modules:

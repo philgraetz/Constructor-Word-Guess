@@ -1,0 +1,24 @@
+{
+  "name": "Constructor-Word-Guess",
+  "version": "1.0.0",
+  "description": "This project is a 'node' application, ie, it runs from the command line.<br>\r <br>\r It plays a simple \"hangman\" style word game.<br>\r Attempt to guess the letters in the word within 15 guesses to win.<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philgraetz/Constructor-Word-Guess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philgraetz/Constructor-Word-Guess/issues"
+  },
+  "homepage": "https://github.com/philgraetz/Constructor-Word-Guess#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.0.0"
+  }
+}

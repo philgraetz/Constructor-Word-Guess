@@ -98,7 +98,6 @@ function Game() {
                 console.log("Thanks for playing!");
                 return;
             }
-            this.guessesLeft--;
             this.guess(result.letter);
         });
     };
@@ -123,6 +122,7 @@ function Game() {
             }
         } else {
             console.log("Nice guess, but " + chalk.red("WRONG!"));
+            this.guessesLeft--;
             this.getALetter();
         }
     };
